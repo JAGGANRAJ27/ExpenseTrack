@@ -1,1 +1,1 @@
-Simple Expense Tracker
+Simple Expense Tracker by NJWEBDESIGNING
