@@ -2,10 +2,3 @@
     height: 100%;
     margin: 0;
 }
-
-body {
-    background: grey url(./assets/money.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-}
