@@ -1,9 +1,18 @@
 import React from 'react';
-import List from './Main/List/List'
+import List from './Main/List/List';
+import DownloadData from './DownloadData';
 
 function Statements() {
+
   return (
-    <List />
+    <div>
+      <div id="statement">
+      <List/>
+      </div>
+      <DownloadData
+        rootElementId="statement"
+        DownloadFileName="NJ-statement" />
+    </div>
   )
 }
 

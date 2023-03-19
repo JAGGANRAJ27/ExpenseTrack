@@ -5,7 +5,6 @@ import ExpensesDetail from './components/ExpensesDetail';
 import Statements from './components/Statements';
 import Home from './components/Home';
 import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import { Toolbar } from '@material-ui/core';
 import useStyles from './styles';
 
@@ -16,10 +15,10 @@ const App = () => {
     <div>
       <AppBar>
         <Toolbar>
-      <Button><Link to="/">Home</Link></Button>
-      <Button><Link to="/incomedetail">Income</Link></Button>
-      <Button><Link to="/expensesdetail">Expenses</Link></Button>
-      <Button><Link to="/statements">Statement</Link></Button>
+      <Link to="/" className={classes.links}>Home</Link>
+      <Link to="/incomedetail" className={classes.links}>Income</Link>
+      <Link to="/expensesdetail" className={classes.links}>Expenses</Link>
+      <Link to="/statements" className={classes.links}>Statement</Link>
         </Toolbar>
         </AppBar>
         <Switch>

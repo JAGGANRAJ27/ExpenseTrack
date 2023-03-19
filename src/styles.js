@@ -22,6 +22,18 @@ export default makeStyles((theme) => ({
       paddingBottom: '200px',
     },
   },
+  links:{
+    textDecoration:'none',
+    color:'#fff',
+    border:'1px solid #fff',
+    padding:'5px',
+    margin:'5px',
+  },
+  downloadbtn:{
+    margin:'10px',
+    border:'1px solid green',
+    color:'green',
+  },
   grid: {
     '& > *': {
       margin: theme.spacing(2),
